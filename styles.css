@@ -1,12 +1,10 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meine kleine Seite</title>
-</head>
-<body>
-  <h1>Willkommen auf meiner kleinen Seite!</h1>
-  <p>Dies ist eine minimalistische index.html-Datei.</p>
-</body>
-</html>
+﻿body {
+    font-family: sans-serif;
+    background: linear-gradient(#cce7ff, #e0ffe0);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}

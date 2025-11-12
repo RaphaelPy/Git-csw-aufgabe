@@ -1,111 +1,26 @@
 ﻿<!DOCTYPE html>
 <html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lorem Ipsum Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-            line-height: 1.6;
-        }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meine kleine Seite</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Willkommen auf meiner kleinen Seite!</h1>
+    <p>Dies ist eine minimalistische index.html-Datei.</p>
+    <p>muavin war hier.</p>
+    <p>Ayman A.</p>
 
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-        }
+    <hr />
 
-        nav {
-            background-color: #333;
-        }
+    <h2>Textgenerator (wie Lorem Ipsum)</h2>
+    <label for="wordCount">Anzahl der Wörter:</label>
+    <input type="number" id="wordCount" value="50" min="1" max="1000" />
+    <button id="generateBtn">Generieren</button>
 
-        nav ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-        }
+    <div id="output"></div>
 
-        nav ul li {
-            margin: 0;
-        }
-
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            padding: 15px 20px;
-            display: block;
-        }
-
-        nav ul li a:hover {
-            background-color: #575757;
-        }
-
-        main {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 0 20px;
-        }
-
-        section {
-            margin-bottom: 40px;
-        }
-
-        h1, h2 {
-            color: #333;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px 0;
-            background-color: #333;
-            color: white;
-        }
-    </style>
-</head>
-<body>
-
-    <header>
-        <h1>Willkommen auf meiner Lorem Ipsum Website</h1>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="#section1">Start</a></li>
-            <li><a href="#section2">Über</a></li>
-            <li><a href="#section3">Kontakt</a></li>
-        </ul>
-    </nav>
-
-    <main>
-        <section id="section1">
-            <h2>Start</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet accumsan arcu. Proin vel nisi eget nunc fermentum aliquam.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sem ut magna egestas fermentum.</p>
-        </section>
-
-        <section id="section2">
-            <h2>Über</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
-            <p>Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.</p>
-        </section>
-
-        <section id="section3">
-            <h2>Kontakt</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultrices nulla quis nibh. Quisque a lectus.</p>
-        </section>
-    </main>
-
-    <footer>
-        &copy; 2025 Lorem Ipsum Website
-    </footer>
-
-</body>
+    <script src="scripts.js"></script>
+  </body>
 </html>

@@ -26,6 +26,29 @@ date: '2025-11-12'
 
 ---
 
+## 🧩 Kurzinfo zu Git
+
+**Git** ist ein **Versionsverwaltungssystem**, das es ermöglicht, Änderungen an Projekten nachzuverfolgen und effizient im Team zusammenzuarbeiten.  
+Es speichert den kompletten Verlauf des Projekts, sodass frühere Versionen jederzeit wiederhergestellt oder verglichen werden können.
+
+Mit Git kann man:
+- **Änderungen speichern** (`commit`)
+- **Dateien hochladen** (`push`) und **herunterladen** (`pull`)
+- **Eigene Entwicklungszweige** erstellen (**Branches**)
+- **Änderungen zusammenführen** (**Merges**)
+- **Gemeinsam im Team** über Plattformen wie **GitHub** arbeiten
+
+**Typischer Ablauf im Team:**
+1. Repository auf **GitHub** erstellen  
+2. Projekt **klonen** (`git clone`)  
+3. Änderungen durchführen und **committen** (`git commit -m "Beschreibung"`)  
+4. Änderungen **pushen** (`git push`)  
+5. Über **Pull Requests** oder **Merges** zusammenführen  
+
+Git sorgt dafür, dass alle Teammitglieder **sicher, organisiert und nachvollziehbar** zusammenarbeiten können.
+
+---
+
 ## 👥 Aufgabenverteilung
 
 | Name          | Aufgabe(n)                                                           |
